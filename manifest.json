@@ -1,0 +1,14 @@
+{
+	"manifest_version": 1,
+
+	"name": "Pretty Localhost",
+	"description": "This extention makes the Localhost landing page prettier.",
+	"version": "1.0",
+
+	"content_scripts": [
+	{
+		"matches": ["http://localhost:8888/"],
+		"css": ["styles.css"]
+		}
+	]
+}
